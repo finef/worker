@@ -2,6 +2,10 @@
     "name": "fine/worker",
     "type": "fine-module",
     "require": {
-        "fine/composer": "*"
+        "fine/composer": "*",
+        "fine/container": "*",
+    },
+    "autoload": {
+        "psr-4": { "Fine\\Worker\\": "src" }
     }
 }
