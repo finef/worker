@@ -4,7 +4,7 @@
     "license": "MIT",
     "require": {
         "fine/composer": "*",
-        "fine/container": "*",
+        "fine/container": "*"
     },
     "autoload": {
         "psr-4": { "Fine\\Worker\\": "src" }
