@@ -1,0 +1,7 @@
+{
+    "name": "fine/worker",
+    "type": "fine-module",
+    "require": {
+        "fine/composer": "*"
+    }
+}
