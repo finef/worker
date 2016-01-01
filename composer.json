@@ -1,11 +1,18 @@
 {
     "name": "fine/worker",
     "type": "fine-module",
+    "license": "MIT",
     "require": {
         "fine/composer": "*",
         "fine/container": "*",
     },
     "autoload": {
         "psr-4": { "Fine\\Worker\\": "src" }
+    },
+    "extra": {
+        "fine-module": {
+            "name": "worker",
+            "class": "Fine\\Worker\\Module\\Module",
+        }
     }
 }
