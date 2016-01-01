@@ -12,7 +12,7 @@
     "extra": {
         "fine-module": {
             "name": "worker",
-            "class": "Fine\\Worker\\Module\\Module",
+            "class": "Fine\\Worker\\Module\\Module"
         }
     }
 }
