@@ -33,6 +33,7 @@ Cele
 ```
 - wysylka cloudMsgy
 - import liveticker
+- crawler
 
 
 // plusy trzymania w contenerze:
